@@ -1,0 +1,110 @@
+header{
+
+    margin-top: 150px;
+}
+
+body{
+    background:linear-gradient(-45deg, rgba(11,103,189,1) 0%, rgb(6, 83, 155) 10%, rgb(13, 119, 218) 69%, rgba(23,130,230,1) 100%);
+    background-position: right top; 
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Segoe UI, Tahoma, Verdana, sans-serif';
+    text-align: center;
+    margin:0;
+    width: 100%;
+    height: 720px;
+}
+
+@font-face{
+    font-family:'Cantarel';
+    src: url('Cantarell/Cantarell-Regular.ttf');
+}
+
+h1{
+    color:rgb(255, 255, 113);
+    font-size: 85px;
+    font-family: 'Cantarel',sans-serif;
+    text-shadow: -5px 5px 10px black;
+    letter-spacing: 6px;
+}
+
+a{
+    text-decoration: none;
+}
+
+form{
+    display: block;
+    margin: 0;
+    text-align: center;
+}
+
+input[type="text"]{
+border-radius: 4px;
+margin: 10px;
+width: 350px;
+height: 30px;
+font-size: 22px;
+color: rgb(41, 41, 41);
+border: 4px solid rgba(0, 29, 92, 0.89);
+padding:3px;
+padding-left: 6px;
+}
+
+button{
+    border-radius: 4px;
+    margin: 10px;
+    width: 300px;
+    height: 30px;
+    border: none;
+    background-color: rgb(43, 142, 255);
+    color: rgb(255, 255, 139);
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 0 4px rgba(0, 29, 92, 0.877);
+
+    }
+
+button:hover{
+    background-color: rgb(15, 95, 185);
+}
+    
+button:active{
+  background-color: rgb(15, 95, 185);
+  box-shadow: 0 2px rgb(0, 29, 92);
+  transform: translateY(4px);
+}
+
+img{
+    height: 250px;
+
+}
+
+section{
+    display: block;
+    border: 8px rgb(13, 77, 150) inset;
+    margin: 0;
+    margin-top: 45px;
+    margin-left: 350px;
+    text-align: left;
+    width: 800px;
+    padding: 20px;
+    background-color: rgba(21, 22, 36, 0.815);
+     
+}
+
+img{
+    
+    display: inline-block;
+    margin-left: 30px;
+    
+}
+.card{
+    display: inline-block;
+    color:white;
+    font-size: 18px;
+    font-family: Tahoma;
+    
+    position: absolute;
+    margin: 24px;
+    
+}

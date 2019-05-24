@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Natiflix</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Davi Lima">
+        <meta name="description" content="Busca de Filmes">
+        <link rel="stylesheet" type="text/css" href="estilo.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <header>
+           <a href="C:\Users\Aecio\Desktop\Natiflix\views\index.ejs"><h1>NATIFLIX</h1></a> 
+        </header>
+        <nav>
+            <form action="/filmes" id="formulario" method="GET"> 
+                <input type="text" placeholder="Digite o nome do filme..."name="nomeDoFilme" id="nomeDoFilme">
+                <br>
+                <button type="submit" value="Buscar">Buscar</button>
+            </form>
+        </nav>
+        <script src="../app.js"></script>        
+    </body>
+</html>
