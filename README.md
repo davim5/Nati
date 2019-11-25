@@ -1,4 +1,6 @@
-# Nati
-Filmes
-Não consegui enviar a pasta node_modules. 
-Pra rodar, fiz a instalação do express, ejs, body-parse e request.
+# Buscador de Filmes
+
+* Node
+* EJS
+* nody-parse
+* OMDb API (API de buscar os filmes)
